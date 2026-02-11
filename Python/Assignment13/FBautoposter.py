@@ -9,10 +9,10 @@ driver.get("https://www.facebook.com/")
 # --- Login ---
 # Note: Ensure these selectors match your current Facebook login page version
 emailelement = driver.find_element(By.NAME, 'email')
-emailelement.send_keys("id goes here")
+emailelement.send_keys("8260673993")
 
 passelement = driver.find_element(By.NAME, 'pass')
-passelement.send_keys("password goes here")
+passelement.send_keys("facebookPass@4044")
 time.sleep(2)
 
 elem = driver.find_element(By.NAME, 'login')
